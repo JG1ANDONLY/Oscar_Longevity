@@ -30,27 +30,42 @@ No inconsistencies were detected in the number of wins, nominations, four-star f
 
 The distribution of Academy Award wins among actors and actresses displays a similar pattern (Figure 1). For both groups, the majority have not won any awards, followed by smaller percentages who have won once or twice. A very small number of actors or actresses have won three times. Only one actress won four Academy Awards.
 
-![alt text](/visualization/num_win_by_sex_percent_bar_plot.png) 
+![alt text](/visualization/fig1_sex_num_win.png) 
 <strong>Figure 1.</strong> Stacked Percentage Bar Plot for Number of Wins by Sex
 
 Most actors and actresses had no nominations for an Academy Award (Figure 2). However, among the actress group, although less frequent across nomination categories, there were instances of higher nomination times (11 and 12), implying these individuals might be more established or recognized. Both distributions aligned closely, displaying right-skewness, indicating rare instances of individuals with exceptionally high nomination counts. This emphasized the rarity and challenge of earning Academy Award nominations multiple times.
 
-![alt text](/visualization/num_nom_hist_by_sex.png)
+![alt text](/visualization/fig2_sex_num_nom.png)
 <strong>Figure 2.</strong> Histogram for Number of Nominations by Sex
 
 The positive slope of the linear regression between the number of Academy Award nominations and the total number of films suggests that as actors or actresses produced more films, their likelihood of being nominated for an Academy Award increased (Figure 3). 
 
-![alt text](/visualization/num_nom_and_films_total.png)
+![alt text](/visualization/fig3_films_total_num_nom.png)
 <strong>Figure 3.</strong> Number of Nominations and Total Number of Films
 
 The histogram depicting drama films occupied a larger area compared to that of non-drama films among nominated films (Figure 4), with both distributions exhibiting right skewness. One potential explanation for this trend was that narrative stories had a greater ability to engage and resonate with audiences, thus increasing their likelihood of receiving Academy Award nominations.
 
-![alt text](/visualization/genre_and_num_nom.png)
+![alt text](/visualization/fig4_genre_num_nom.png)
 <strong>Figure 4.</strong> Histogram for Number of Nominations by Film Type
 
+The density plot section in the rain cloud plot section depicting the number of four-star films exhibited heavy right-skewness for both actors and actresses (Figure 5), aligning with the expectation that creating such films should be challenging. Additionally, actors had a higher median number of four-star films compared to actresses, while the interquartile range of actors surpassed that of actresses, indicating a potential sex bias in terms of film rating. Moreover, there were more outliers in the distribution of the number of four-star films among actors, suggesting that some actors might contribute many more four-star films than the other actors.
 
+![alt text](/visualization/fig5_num_4star_films_sex.png)
+<strong>Figure 5.</strong> Rain Cloud Plot of Four-star Films by Sex
 
+The White actors and actresses had a higher mean and lower standard deviation of the number of times winning an Academy Award than all other ethnicities combined (Figure 6). This could imply that a race and ethnicity disparity might exist between the White ethnicity and other ethnicities in winning an Academy Award.
 
+![alt text](/visualization/fig6_race_num_win.png)
+<strong>Figure 6.</strong> Mean Number of Wins by Race with Standard Deviation (SD)
+
+Among all continuous variables, only year of birth, year of the person’s first film, and age were normally distributed (Figure 7).
+
+![alt text](/visualization/fig7_bar_histogram.png)
+<strong>Figure 7.</strong> Bar Plots and Histograms of all Variables
+
+Compared to nominees and controls, winners were significantly older (mean age 67.4 vs. 63.1 and 66.0 years, respectively; *p<0.001*) and had higher median numbers of total films (52 vs. 40 and 33; *p<0.001*), four-star films (9 vs. 6 and 4; *p<0.001*), and nominations (median 2 vs. 1; *p<0.001*). A higher proportion of winners had changed their name (28.6% vs. 22.4% and 9.2%; *p<0.001*) and worked in the drama genre (81.9% vs. 78.5% and 72.1%; *p=0.001*) relative to the nominee and control groups (Table 1).
+
+<strong>Table 1.</strong> Baseline characteristics of actors and actresses who won Academy Awards (winners), were only ever nominated (nominees), or were never nominated (controls)
 
 
 
